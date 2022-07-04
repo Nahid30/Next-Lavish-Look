@@ -12,6 +12,7 @@ import Head from "next/head";
 import NextLink from "next/Link";
 import React from "react";
 import useStyles from "../utilities/styles";
+import Login from "./Login";
 
 export default function Layout({ title, description, children }) {
   const theme = createMuiTheme({
@@ -59,7 +60,7 @@ export default function Layout({ title, description, children }) {
                 Cart
               </NextLink>
               <NextLink href="/login" passHref>
-                Login
+                Login 
               </NextLink>
             </div>
           </Toolbar>
