@@ -12,7 +12,9 @@ const useStyles = makeStyles({
     },
     footer : {
         textAlign: 'center',
+        
     }
+    
 })
 
 export default useStyles;

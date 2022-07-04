@@ -3,8 +3,8 @@ const data = {
         {
             name: 'White Shirt',
             category: 'Shirt',
-            image: '/public/images/shirt1.jpg',
-            price: 70,
+            image: '/images/shirt1.jpg',
+            price: 90,
             brand: 'Nike',
             rating: 4.5,
             numReviews: 10,
@@ -14,8 +14,8 @@ const data = {
         {
             name: 'Slim Shirt',
             category: 'Shirt',
-            image: '/public/images/shirt2.jpg',
-            price: 60,
+            image: '/images/shirt2.jpg',
+            price: 80,
             brand: 'Adidas',
             rating: 4.2,
             numReviews: 10,
@@ -25,8 +25,8 @@ const data = {
         {
             name: 'Casual Shirt',
             category: 'Shirt',
-            image: '/public/images/shirt3.jpg',
-            price: 50,
+            image: '/images/shirt3.jpg',
+            price: 70,
             brand: 'Calvin Klein',
             rating: 4.3,
             numReviews: 10,
@@ -36,8 +36,8 @@ const data = {
         {
             name: 'Classic Shirt',
             category: 'Shirt',
-            image: '/public/images/shirt4.jpg',
-            price: 40,
+            image: '/images/shirt4.jpg',
+            price: 60,
             brand: 'Hugo Boss',
             rating: 4.7,
             numReviews: 10,
@@ -47,7 +47,7 @@ const data = {
         {
             name: 'Casual Shirt',
             category: 'Shirt',
-            image: '/public/images/shirt5.jpg',
+            image: '/images/shirt5.jpg',
             price: 50,
             brand: 'Guess',
             rating: 4.8,
@@ -59,3 +59,5 @@ const data = {
 };
 
 export default data;
+
+
