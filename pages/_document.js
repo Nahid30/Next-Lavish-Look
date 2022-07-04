@@ -6,7 +6,12 @@ export default class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head></Head>
+        <Head>
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700&display=swap"
+          />
+        </Head>
         <body>
           <Main />
           <NextScript />
@@ -28,7 +33,7 @@ MyDocument.getInitialProps = async (ctx) => {
   return {
     ...initialProps,
     styles: [
-    ...React.Children.toArray(initialProps.styles),
+      ...React.Children.toArray(initialProps.styles),
       sheets.getStyleElement(),
     ],
   };
