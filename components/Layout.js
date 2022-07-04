@@ -9,10 +9,9 @@ import {
   CssBaseline,
 } from "@material-ui/core";
 import Head from "next/head";
-import NextLink from "next/Link";
+import NextLink from "next/link";
 import React from "react";
 import useStyles from "../utilities/styles";
-import Login from "./Login";
 
 export default function Layout({ title, description, children }) {
   const theme = createMuiTheme({
