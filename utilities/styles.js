@@ -28,8 +28,11 @@ const useStyles = makeStyles({
         color:'#E6425E',
         marginTop: 60,
         
+    },
+    section:{
+        marginTop: 10,
+        marginBottom:10,
     }
-    
 })
 
 export default useStyles;
