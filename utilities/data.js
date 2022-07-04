@@ -2,6 +2,7 @@ const data = {
     products : [
         {
             name: 'White Shirt',
+            slug: 'free-shirt',
             category: 'Shirt',
             image: '/images/shirt1.jpg',
             price: 90,
@@ -13,6 +14,7 @@ const data = {
         },
         {
             name: 'Slim Shirt',
+            slug: 'slim-shirt',
             category: 'Shirt',
             image: '/images/shirt2.jpg',
             price: 80,
@@ -24,6 +26,7 @@ const data = {
         },
         {
             name: 'Casual Shirt',
+            slug: 'casual-shirt',
             category: 'Shirt',
             image: '/images/shirt3.jpg',
             price: 70,
@@ -35,6 +38,7 @@ const data = {
         },
         {
             name: 'Classic Shirt',
+            slug: 'classic-shirt',
             category: 'Shirt',
             image: '/images/shirt4.jpg',
             price: 60,
@@ -46,6 +50,7 @@ const data = {
         },
         {
             name: 'Casual Shirt',
+            slug: 'casual-shirt',
             category: 'Shirt',
             image: '/images/shirt5.jpg',
             price: 50,
