@@ -1,12 +1,14 @@
 import { Grid, Card, CardActionArea,CardMedia,CardContent,Typography,CardActions,Button } from "@material-ui/core";
 import Layout from "../components/Layout";
 import data from "../utilities/data";
+import useStyles from "../utilities/styles";
 
 export default function Home({ children }) {
+  const classes = useStyles();
   return (
     <Layout>
       <div>
-        <h3>Welcome to Lavish Look</h3>
+        <h3 className={classes.secTittle}>Products</h3>
 
         <Grid container spacing={3}>
           {data.products.map((product) => (
