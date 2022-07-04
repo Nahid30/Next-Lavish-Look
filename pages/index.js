@@ -1,11 +1,15 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import Image from "next/image";
+import Layout from "../components/Layout";
+import styles from "../styles/Home.module.css";
 
-export default function Home() {
+export default function Home({ children }) {
   return (
-    <div>
-      <h1>Lavish Look</h1>
-    </div>
-  )
+    <Layout>
+      <div>
+        <h1>Lavish Look</h1>
+        
+      </div>
+    </Layout>
+  );
 }
